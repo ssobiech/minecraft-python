@@ -13,6 +13,6 @@ def dotykMidasa():
 	    blockBelow = mc.getBlock(pos.x, pos.y - 1, pos.z)
 	    if blockBelow != air and blockBelow != water:
    		    mc.setBlock(pos.x, pos.y - 1, pos.z, gold)
-	    time.sleep(0.3)
+	    time.sleep(0.4)
 
 dotykMidasa()
