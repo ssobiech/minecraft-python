@@ -1,2 +1,2 @@
 # minecraft-python
-test commit
+Wiecej informacji: https://sergiuszsobiech.gitbooks.io/minecraft-python/
