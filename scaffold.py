@@ -21,7 +21,7 @@ while True:
      else:
          if bloki == 1:
              mc.setBlock(pos, block.STRUCTURE_BLOCK)
-         else:
+         elif bloki == 2:
             mc.setBlock(pos, block.BARRIER)
      if len(bridge) > 10:
          firstPos = bridge.pop(0)
