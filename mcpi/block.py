@@ -194,6 +194,11 @@ SUGAR_CANE          = Block(83)
 FENCE               = Block(85)
 GLOWSTONE_BLOCK     = Block(89)
 BEDROCK_INVISIBLE   = Block(95)
+STRUCTURE_BLOCK     = Block(255)
+BARRIER_BLOCK       = Block(166)
+#short versions
+STRUCTURE           = Block(255)
+BARRIER             = Block(166)
 if settings.isPE:
    STAINED_GLASS = WOOL
 else:
