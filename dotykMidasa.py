@@ -10,6 +10,7 @@ def dotykMidasa():
 
 	while True:
 		pos = mc.player.getTilePos()
+		x = pos.x
 		blockBelow = mc.getBlock(pos.x, pos.y - 1, pos.z)
 		if blockBelow != air and blockBelow != water:
    			mc.setBlock(pos.x, pos.y - 1, pos.z, gold)
