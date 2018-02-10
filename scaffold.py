@@ -8,6 +8,10 @@ bloki = random.randint(0, 2)
 mc = serwPol.podlacz()
 
 bridge = []
+typy = []
+typy.append(COMMAND_BLOCK)
+typy.append(STRUCTURE_BLOCK)
+typy.append(BARRIER)
 
 while True:
    pos = mc.player.getPos()
