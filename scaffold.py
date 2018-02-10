@@ -21,7 +21,7 @@ while True:
      bridge.append(pos)
      bloki = random.randint(0, len(typy)-1)
      mc.setBlock(pos, typy[bloki])
-     print(str(typy))
+     print("wylosowano: " + str(bloki) + ", blok:" +str(typy[bloki]))
      if len(bridge) > 10:
          firstPos = bridge.pop(0)
          if not firstPos in bridge:
