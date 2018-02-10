@@ -9,9 +9,8 @@ mc = serwPol.podlacz()
 
 bridge = []
 typy = []
-typy.append(block.COMMAND_BLOCK)
-typy.append(block.STRUCTURE_BLOCK)
-typy.append(block.BARRIER)
+typy.append(block.EOD_TNT)
+
 
 while True:
    pos = mc.player.getPos()
@@ -21,7 +20,6 @@ while True:
      bridge.append(pos)
      bloki = random.randint(0, len(typy)-1)
      mc.setBlock(pos, typy[bloki])
-     print(str(typy))
      if len(bridge) > 10:
          firstPos = bridge.pop(0)
          if not firstPos in bridge:

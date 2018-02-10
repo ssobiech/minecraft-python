@@ -12,7 +12,7 @@ def bok():
     p.left(60)
     p.go(a)
     p.right(120)
-    
+    p.matrix
     p.go(a)
     p.left(60)
     p.go(a)
