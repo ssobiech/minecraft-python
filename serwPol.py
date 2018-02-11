@@ -2,7 +2,7 @@ import mcpi.minecraft as minecraft
 from os import environ
 
 gracz = "souza539"
-server ="localhost"
+server ="spock.nazwa.pl"
 
 def setUser():
     environ["MINECRAFT_PLAYER_NAME"] = gracz
