@@ -1,13 +1,16 @@
 import time
 import serwPol
+import logger
 
 mc = serwPol.podlacz()
+logger = logger.Logger()
+
 
 def dotykMidasa():
 	gold = 41
 	water = 9
 	air = 0
-
+	logger.info("dotyk start")        
 	while True:
 		pos = mc.player.getTilePos()
 		x = pos.x
