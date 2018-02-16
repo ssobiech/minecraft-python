@@ -1,18 +1,14 @@
 # -*- coding: utf-8 -*-
 import logging
-import sys
-from logstash_async.handler import AsynchronousLogstashHandler
+from logging.config import fileConfig
 from os import environ
 
-host = 'satoh.nazwa.pl'
-port = 6240
 
 class Logger:
     def __init__(self):
-        self.extra = { 'player': environ["MINECRAFT_PLAYER_NAME"]}
-        self.logger = logging.getLogger('python-logstash-logger')
-        self.logger.setLevel(logging.INFO)
-        self.logger.addHandler(AsynchronousLogstashHandler(host, port, database_path='logstash_test.db'))
+        fileConfig('logging.conf', disable_existing_loggers=True)
+        self.logger = logging.getLogger()
+        self.extra = {'player': environ["MINECRAFT_PLAYER_NAME"]}
 
     def info(self, data):
         self.logger.info(data, extra = self.extra)
