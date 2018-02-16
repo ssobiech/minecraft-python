@@ -1,23 +1,25 @@
 import mcpi.minecraft as minecraft
 from os import environ
+import logger
 
-gracz = "souza539"
+gracz = "Spock"
 server ="spock.nazwa.pl"
+port = 4711
+environ["MINECRAFT_PLAYER_NAME"] = gracz
 
-def setUser():
-    environ["MINECRAFT_PLAYER_NAME"] = gracz
-    print("ustawiono gracza o nicku: "+ environ["MINECRAFT_PLAYER_NAME"])
+logger = logger.Logger()
 
 
 def polacz():
-    mc = minecraft.Minecraft.create(server,4711)
-    print("podlaczono do serwera: " + str(server))
+    mc = minecraft.Minecraft.create(server, port)
+    logger.info("użytkownik " + mc.player.getName() + " został podłączony do serwera " + server + ":" + str(port))
     return mc
 
+
 def podlacz():
-    setUser()
     mc = polacz()
     return mc
-    
+
+
 if __name__ == "__main__":
     podlacz()
