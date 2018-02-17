@@ -15,6 +15,6 @@ class Logger:
 
 
 if __name__ == "__main__":
-    environ["MINECRAFT_PLAYER_NAME"] = "Spock"
+    environ["MINECRAFT_PLAYER_NAME"] = "souza539"
     logger = Logger()
     logger.info("sample log message")
