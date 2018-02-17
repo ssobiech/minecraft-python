@@ -5,7 +5,7 @@ import logger
 gracz = "souza539"
 server ="spock.nazwa.pl"
 port = 4711
-environ["MINECRAFT_PLAYER_NAME"] = gracz
+environ["MINECRAFT_PLAYER_ID"] = gracz
 
 logger = logger.Logger()
 
