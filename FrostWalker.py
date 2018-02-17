@@ -19,5 +19,5 @@ while True:
      bridge.append(pos)
      bloki = random.randint(0, len(typy)-1)
      mc.setBlock(pos, typy[bloki])
-     print(str(typy))
+     print("wylosowano: " + str(bloki) + ", blok:" +str(typy[bloki]))
    #time.sleep(0.05)
