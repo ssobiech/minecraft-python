@@ -6,7 +6,7 @@ pipeline {
         publishOverSsh {
             server('minecraft-server') {
                 transferSet {
-                    sourceFiles('file')
+                    sourceFiles('*')
                 }
             }
         }
