@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Publish') {
+    stage('Deploy') {
       steps {
-        echo 'test6'
+        sh 'sftp spock@'
       }
     }
   }
