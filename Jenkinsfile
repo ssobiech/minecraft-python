@@ -3,7 +3,13 @@ pipeline {
   stages {
     stage('Deploy') {
       steps {
-        sh 'sftp spock@'
+        publishOverSsh {
+            server('minecraft-server') {
+                transferSet {
+                    sourceFiles('file')
+                }
+            }
+        }
       }
     }
   }
