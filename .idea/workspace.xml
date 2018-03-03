@@ -23,6 +23,29 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="FrostWalker.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrostWalker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+=======
+      <file leaf-file-name="bomber.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mcpi/bomber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> b392eb82b741579d476fe4d59355b9b392ae3df1
       <file leaf-file-name="entity.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mcpi/entity.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,18 +127,31 @@
       <file leaf-file-name="vec3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mcpi/vec3.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="462">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+=======
             <state relative-caret-position="51">
               <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logger.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logger.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="378">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
             <state relative-caret-position="306">
               <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
               <folding />
             </state>
           </provider>
@@ -240,7 +276,15 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.czipsy">
+=======
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.logger">
+=======
+  <component name="RunManager" selected="Python.fill">
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
+>>>>>>> b392eb82b741579d476fe4d59355b9b392ae3df1
     <configuration name="FrostWalker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,11 +384,27 @@
     </list>
     <recent_temporary>
       <list size="5">
+<<<<<<< HEAD
         <item index="0" class="java.lang.String" itemvalue="Python.czipsy" />
         <item index="1" class="java.lang.String" itemvalue="Python.fill" />
         <item index="2" class="java.lang.String" itemvalue="Python.serwPol" />
         <item index="3" class="java.lang.String" itemvalue="Python.FrostWalker" />
         <item index="4" class="java.lang.String" itemvalue="Python.logger" />
+=======
+<<<<<<< HEAD
+        <item index="0" class="java.lang.String" itemvalue="Python.logger" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FrostWalker" />
+        <item index="2" class="java.lang.String" itemvalue="Python.serwPol" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bomber" />
+        <item index="4" class="java.lang.String" itemvalue="Python.scaffold" />
+=======
+        <item index="0" class="java.lang.String" itemvalue="Python.fill" />
+        <item index="1" class="java.lang.String" itemvalue="Python.serwPol" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FrostWalker" />
+        <item index="3" class="java.lang.String" itemvalue="Python.logger" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bomber" />
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
+>>>>>>> b392eb82b741579d476fe4d59355b9b392ae3df1
       </list>
     </recent_temporary>
   </component>
@@ -355,8 +415,12 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+=======
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17860906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -730,6 +794,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/mcpi/bomber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -740,6 +806,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
     <entry file="file://$PROJECT_DIR$/mcpi/entity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -748,15 +815,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logger.py">
+    <entry file="file://$PROJECT_DIR$/serwPol.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="462">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+=======
         <state relative-caret-position="306">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrostWalker.py">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -766,6 +846,26 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/serwPol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mcpi/bomber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+=======
+>>>>>>> b392eb82b741579d476fe4d59355b9b392ae3df1
     <entry file="file://$PROJECT_DIR$/xRay - Copy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -804,12 +904,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+>>>>>>> 0894d093b30f264835104ef515887eed3c761a7b
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/czipsy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -827,6 +929,13 @@
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+>>>>>>> b392eb82b741579d476fe4d59355b9b392ae3df1
         </state>
       </provider>
     </entry>
