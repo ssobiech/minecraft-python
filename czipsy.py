@@ -1,7 +1,5 @@
-import time
 import serwPol
 import logger
-from random import randint
 from mcpi import block
 
 
