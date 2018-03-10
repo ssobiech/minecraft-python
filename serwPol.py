@@ -2,10 +2,10 @@ import mcpi.minecraft as minecraft
 from os import environ
 import logger
 
-gracz = "WurtexoiPL"
+gracz = "souza539"
 server ="spock.nazwa.pl"
 port = 4711
-environ["MINECRAFT_PLAYER_ID"] = gracz
+environ["MINECRAFT_PLAYER_ID"] = 'souza539'
 
 logger = logger.Logger()
 
