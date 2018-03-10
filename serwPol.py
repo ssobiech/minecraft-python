@@ -16,7 +16,7 @@ def polacz():
     try:
         mc = minecraft.Minecraft.create(server, port)
         if mc.player.getName() == gracz:
-            logger.info("użytkownik " + mc.player.getName() + " został podłączony do serwera " + server + ":" + str(port))
+            logger.info("użytkownik %s został podłączony do serwera %s" % (mc.player.getName(), server + ":" + str(port)))
             return mc
         else:
             '''logger.error("podlaczono, ale brak mozliwosci identyfikacji gracza %s " % gracz)'''
