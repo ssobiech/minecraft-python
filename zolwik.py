@@ -8,7 +8,7 @@ mc = serwPol.podlacz()
 logger = logger.Logger()
 
 pos = mc.player.getTilePos()
-p = MinecraftTurtle(mc,pos)
+p = MinecraftTurtle(mc, pos)
 a = 10
 
 

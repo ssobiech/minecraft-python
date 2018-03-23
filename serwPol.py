@@ -25,6 +25,7 @@ def polacz():
         logger.error("problem z podlaczeniem do serwera. Błąd: " + err.__str__())
         raise
 
+
 def podlacz():
     mc = polacz()
     return mc
