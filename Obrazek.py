@@ -5,7 +5,7 @@ import server
 import sys
 import serwPol as mine
 
-a = 15
+a = 20
 
 def bok():
     p.go(a)

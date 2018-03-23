@@ -1,4 +1,9 @@
 
 *.db
+<<<<<<< HEAD
 *.pyc
 *.pyc
+=======
+*.pyc
+*.pyc
+>>>>>>> 43eeddc6fbd3724f5de24fde64f852ba20a523fb
